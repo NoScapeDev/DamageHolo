@@ -1,0 +1,45 @@
+dh:
+  # =====================================================
+  #                  DAMAGE SETTINGS
+  # =====================================================
+
+  damage:
+
+    # should damage display be enabled?
+    enable: true
+
+    mobs: true # includes animals & other type entities
+    players: true # human entities
+
+    # display style
+    hologram: '&c&l%value%'
+
+  # =====================================================
+  #                    HEAL SETTINGS
+  # =====================================================
+
+  heal:
+    # should heal display be enabled?
+    enable: false
+
+    mobs: true # includes a animals & other type entities
+    players: true # human entities
+
+    # display style
+    hologram: '&a%value%'
+
+  # =====================================================
+  #                    GLOBAL SETTINGS
+  # =====================================================
+
+  # when the holograms should be removed after being created
+  interval: 2 # remove interval in seconds
+
+  # min & max heights of the hologram
+  # - will get a random number between these 2 numbers.
+  minHeight: 0.2
+  maxHeight: 0.8
+
+  particles:
+    enable: true
+    value: 'TOWN_AURA'

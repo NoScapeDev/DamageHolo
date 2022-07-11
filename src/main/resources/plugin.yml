@@ -1,0 +1,10 @@
+name: DamageHolo
+version: '${project.version}'
+main: net.noscape.project.damageholo.DamageHolo
+api-version: 1.13
+authors: [NoScape]
+description: Display damage values with holograms.
+
+commands:
+  damageholo:
+    aliases: [dh]
